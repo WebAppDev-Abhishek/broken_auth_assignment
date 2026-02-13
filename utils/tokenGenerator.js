@@ -7,11 +7,11 @@ const generateToken = async (email) => {
 
     return crypto
       .createHmac("sha256", secret)
-      .update(email)
-      .digest("base64");
+      .update(email + Date.now().toString()) // Added timestamp for uniqueness
+      .digest("hex");
   } catch (error) {
-    // THE BUG: Empty catch block.
-    // Error is swallowed and undefined is returned.
+    console.error("Token Generation Error:", error.message);
+    throw error; 
   }
 };
 
