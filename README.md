@@ -109,3 +109,13 @@ To submit your assignment:
     *   This file must contain the terminal output of all 4 test commands (Login, Verify OTP, Get Token, Access Protected Route).
     *   Ensure the final command's output showing the `success_flag` is clearly visible in this file.
 3.  Share the link to your repository.
+
+_______________________________________________________________________________________________________________________
+
+As per the assignment requirements:
+
+Code: Fully debugged and pushed to this public repository.
+
+output.txt: Located in the root directory, containing the full terminal log of the 4-step testing sequence,
+including the final Success Flag.
+
