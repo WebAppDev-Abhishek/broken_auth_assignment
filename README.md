@@ -119,3 +119,13 @@ Code: Fully debugged and pushed to this public repository.
 output.txt: Located in the root directory, containing the full terminal log of the 4-step testing sequence,
 including the final Success Flag.
 
+<img width="1371" height="239" alt="Login Receive a loginSessionId and see an OTP in the server logs" src="https://github.com/user-attachments/assets/f3a7b32e-6cb6-4902-b438-c0b0f7c0b529" />
+
+<img width="1376" height="299" alt="Verify the OTP to get a valid session cookie" src="https://github.com/user-attachments/assets/57bb1a4e-d9c4-4907-b5a6-e06f674bb8a5" />
+
+<img width="1373" height="399" alt="Exchange the Session for a JWT Access Token" src="https://github.com/user-attachments/assets/0c776564-1953-461c-ba39-ec7c6eb5aec3" />
+
+<img width="1377" height="474" alt="Access Protected Routes using the token" src="https://github.com/user-attachments/assets/77949794-75bd-4783-81ce-fa075e90a306" />
+
+
+
