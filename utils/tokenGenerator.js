@@ -6,7 +6,7 @@ const generateToken = async (email) => {
     const secret = await getSecretFromDB();
 
     return crypto
-      .createHmac("sha256", secret)
+      .createHmac("Abhishek", secret)
       .update(email + Date.now().toString()) // Added timestamp for uniqueness
       .digest("hex");
   } catch (error) {
